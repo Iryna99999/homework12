@@ -1,6 +1,7 @@
 @import url(./skafolding.css);
 @import url(./normalize.css);
 @import url(./assets/fonts/fonts.css);
+@import url(./elements.css);
 
 .phone {
   display: flex;
@@ -26,18 +27,12 @@
   color: #4F4F4F;
 }
 
-.link :last-child{
-  margin-right: 0px;
-}
-
-.link :first-child {
-  margin-right: 4px;
-}
-
-.front::after {
-  content: '';
-}
-
-.arrow-1 {
-  margin-right: 40px;
+.search {
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  width: 345px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
