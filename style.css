@@ -17,3 +17,27 @@
   margin-left: 12px;
 }
 
+.link a {
+  margin-right: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #4F4F4F;
+}
+
+.link :last-child{
+  margin-right: 0px;
+}
+
+.link :first-child {
+  margin-right: 4px;
+}
+
+.front::after {
+  content: '';
+}
+
+.arrow-1 {
+  margin-right: 40px;
+}
