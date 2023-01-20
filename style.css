@@ -2,6 +2,7 @@
 @import url(./normalize.css);
 @import url(./assets/fonts/fonts.css);
 @import url(./elements.css);
+@import url(./cards.css);
 
 .phone {
   display: flex;
@@ -49,4 +50,16 @@
   color: #BDBDBD;
   text-decoration: none;
   margin-right: 15px;
+}
+
+.mix {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.mix-1 {
+  margin-top: 30px;
 }
