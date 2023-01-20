@@ -18,13 +18,14 @@
   margin-left: 12px;
 }
 
-.link a {
+.link a{
   margin-right: 40px;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   text-decoration: none;
   color: #4F4F4F;
+  display: inline-block
 }
 
 .search {
@@ -39,4 +40,13 @@
   font-size: 18px;
   line-height: 21px;
   color: #828282;
+}
+
+.type a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #BDBDBD;
+  text-decoration: none;
+  margin-right: 15px;
 }
