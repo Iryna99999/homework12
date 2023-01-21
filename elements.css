@@ -1,0 +1,19 @@
+.nav a:last-child {
+  margin-right: 0px;
+}
+
+.nav-links a:first-child::after {
+  content: url(./assets/images/arrow2.png);width: 15px;height: 15px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  margin-left: 4px;
+}
+
+.phone a:first-child::before{
+  content: url(./assets/images/phone.png);width: 24px;height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
