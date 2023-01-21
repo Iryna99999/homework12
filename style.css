@@ -2,6 +2,7 @@
 @import url(./normalize.css);
 @import url(./assets/fonts/fonts.css);
 @import url(./elements.css);
+@import url(./cards.css);
 
 .nav-links a {
   font-weight: 500;
@@ -44,3 +45,20 @@
   background-size: 25px;
   background-position: 290px
 }
+
+.content-links a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #BDBDBD;
+  text-decoration: none;
+}
+
+.back a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+}
+

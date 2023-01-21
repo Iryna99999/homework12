@@ -17,3 +17,23 @@
   background-size: cover;
   margin-right: 10px;
 }
+
+.content-links a:nth-child(n+2)::before{
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #BDBDBD;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.back a::before {
+  content: url(./assets/images/greenarrow.png);
+  width: 18px;
+  height: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 4px;
+}

@@ -1,0 +1,19 @@
+.card {
+  background-color: #F9F9F9;
+  border: 1px solid #F2F2F2;
+  box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+	width: 315px;
+	padding: 20px 20px 30px 20px;
+}
+
+.card-photo {
+	background-image: url(./assets/images/photo.png);
+	width: 275px;
+	height: 227px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #FFFFFF;
+	border-radius: 10%;
+}
