@@ -9,6 +9,7 @@
   align-items: flex-start;
   padding: 20px 20px 30px;
 	gap: 25px;
+
 }
 
 .card-photo {
@@ -48,12 +49,7 @@
 }
 
 .button {
-	display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 12px 32px;
-  gap: 10px;
 	border: 1px solid rgba(5, 175, 52, 0.53);
   border-radius: 10px; 
 	background-color: #3FCF5E;
@@ -62,4 +58,31 @@
   line-height: 21px;
   color: #FFFFFF;
 	margin-top: 29px;
+}
+
+.button-image {
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.image-basket {
+	margin-top: 29px;
+	margin-left: 68px;
+}
+
+.radio {
+	border: 1px solid transparent;
+  border-radius: 5px;
+	color: #4F4F4F;
+	font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.radio-active {
+	border: 1px solid #3ECF5E;
+  border-radius: 5px;
+	background-color:  #FFFFFF;
+	padding: 4px 12px;
 }

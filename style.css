@@ -28,10 +28,6 @@
   gap: 60px;
 }
 
-.last a:first-child {
-  margin-right: 10px;
-}
-
 .search {
   border: 1px solid #BDBDBD;
   border-radius: 10px;
@@ -55,6 +51,8 @@
   line-height: 21px;
   color: #BDBDBD;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
 }
 
 .back a {
@@ -65,3 +63,12 @@
   text-decoration: none;
 }
 
+.pages a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #828282;
+  margin-right: 20px;
+  text-align: center;
+}

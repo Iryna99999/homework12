@@ -18,7 +18,7 @@
   margin-right: 10px;
 }
 
-.content-links a:nth-child(n+2)::before{
+.content-links a:nth-child(n+2)::before {
   content: '';
   width: 6px;
   height: 6px;
@@ -26,6 +26,7 @@
   background-color: #BDBDBD;
   margin-right: 15px;
   margin-left: 15px;
+  display: block;
 }
 
 .back a::before {
@@ -38,12 +39,41 @@
   margin-right: 4px;
 }
 
-form button::after {
-  content: '';
-  background-image: url(./assets/images/buy2.png);
-  background-size: cover;
-  width: 46px;
-  height: 45px;
+.first-image a:first-child {
+  margin-right: 10px;
+}
+
+input[type="radio"]:checked + label{
+	border: 1px solid #3ECF5E;
+  border-radius: 5px;
+	background-color:  #FFFFFF;
+	padding: 4px 12px;
+}
+
+.pages a:last-child {
+  margin-right: 0px;
+}
+
+.pages a:first-child::before {
+  content: url(./assets/images/Arrowleft.png);
+  width: 16px;
+  height: 16px;
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
+  margin-right: 25px;
+}
+
+.pages a:last-child::after {
+  content: url(./assets/images/Arrowrihgt2.png);
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 25px;
+}
+
+.pages a:active {
+  color: #219653;
 }
