@@ -19,6 +19,8 @@
   line-height: 21px;
   color: #000000;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .basket {
@@ -71,4 +73,38 @@
   color: #828282;
   margin-right: 20px;
   text-align: center;
+}
+
+.contacts-link a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.contacts-link a:first-child {
+  margin-right: 47px;
+}
+
+.icons a:first-child {
+  margin-right: 20px;
+}
+
+.contacts-phone a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.contacts-phone a:first-child::before{
+  content: url(./assets/images/whphone.png);width: 24px;height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
 }

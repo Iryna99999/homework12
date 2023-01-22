@@ -52,3 +52,14 @@
   margin-bottom: 100px;
   text-align: center;
 }
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 130px;
+  background-color: #333333;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
