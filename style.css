@@ -19,14 +19,17 @@
   line-height: 21px;
   color: #000000;
   text-decoration: none;
-  display: flex;
-  align-items: center;
 }
 
 .basket {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
   align-items: center;
+  gap: 60px;
+}
+
+.last a:first-child {
+  margin-right: 10px;
 }
 
 .search {

@@ -4,7 +4,11 @@
   box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
 	width: 315px;
-	padding: 20px 20px 30px 20px;
+	display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 30px;
+	gap: 25px;
 }
 
 .card-photo {
@@ -16,4 +20,46 @@
 	background-size: cover;
 	background-color: #FFFFFF;
 	border-radius: 10%;
+}
+
+.name {
+	color: #333333;
+	font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+.type-product {
+	margin: 0px;
+	font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+	color: #828282;
+}
+
+.price {
+	margin: 0px;
+	font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+	color: #333333;
+}
+
+.button {
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 10px;
+	border: 1px solid rgba(5, 175, 52, 0.53);
+  border-radius: 10px; 
+	background-color: #3FCF5E;
+	font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+	margin-top: 29px;
 }

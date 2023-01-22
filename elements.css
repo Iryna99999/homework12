@@ -22,7 +22,7 @@
   content: '';
   width: 6px;
   height: 6px;
-  border-radius: 50%;
+  border-radius: 50px;
   background-color: #BDBDBD;
   margin-right: 15px;
   margin-left: 15px;
@@ -36,4 +36,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 4px;
+}
+
+form button::after {
+  content: '';
+  background-image: url(./assets/images/buy2.png);
+  background-size: cover;
+  width: 46px;
+  height: 45px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
